@@ -1,0 +1,227 @@
+/*================================================================================
+                                    Geral
+================================================================================*/
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+
+section h2 {
+
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0 20px 0;
+
+}
+
+/*================================================================================
+                                    Header
+================================================================================*/
+
+header nav ul li {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+header nav ul li a { 
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*================================================================================
+                                    Banner
+================================================================================*/  
+
+section.banner {
+
+    text-align : center;
+    margin: 0vw 5vw 0vw 5vw;
+    
+}
+
+section.banner img {
+
+    width: 40%;
+
+}
+
+section.banner h2 {
+
+    font-weight: bold;
+    font-size : 1.5rem;
+    margin: 20px 0 20px 0;
+
+}
+
+section.banner p {
+
+    margin: 20px 0 20px 0;
+
+}
+
+section.banner p button {
+
+    background: #ff6464;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px
+
+}
+
+/*================================================================================
+                                    Posts
+================================================================================*/  
+
+section.posts {
+
+    background-color: #EDF7FA;
+    padding: 20px 10px 20px 10px;
+
+}
+
+section.posts ul li {
+
+    background-color: white;
+    margin: 15px 0 15px 0;
+    padding: 20px 10px 20px 10px;
+
+}
+
+section.posts ul li h3 {
+
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+section.posts ul li p {
+
+    font-size: 1rem;
+    margin: 10px 0 10px 0;
+    padding: 7px 3px 7px 3px;
+    line-height: 1.3rem;
+
+}
+
+/*================================================================================
+                                    Works
+================================================================================*/
+
+section.works {
+
+    padding: 20px 10px 20px 10px;
+
+}
+
+section.works ul li h3 {
+
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+
+}
+
+section.works ul li p {
+
+    font-size: 1.20rem;
+    margin: 10px 0 10px 0;
+    padding: 7px 3px 7px 3px;
+    line-height: 1.3rem;
+
+}
+
+section.works ul li p.info {
+
+    color: #8695a4;
+
+}
+
+section.works ul li p.info span {
+
+    background-color: #142850;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 7px 14px 7px 14px;
+    border-radius: 25px;
+
+}
+
+section.works ul li {
+
+    padding: 0px 20px 0px 20px;
+
+}
+
+/*================================================================================
+                                    Footer
+================================================================================*/
+
+footer {
+
+    text-align: center;
+    padding: 20vw 0px 20vw 0px;
+
+}
+footer nav p a {
+    color: #21243D;
+    font-size: 2rem;
+    margin: 0px 8px 0px 8px;
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+    header {
+        padding: 3vw 2vw 5vw 2vw;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: right;;
+    }
+    header nav ul li {
+        margin: 0px 20px 0px 20px;
+    }
+    main section h2 {
+        text-align: left;
+    }
+
+    section.banner {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 10vw 0 10vw;
+    }
+    section.banner div.texto {
+        width: 50%;
+        text-align: left;
+        padding: 0px 10vw 0px 0px;
+    }
+    section.banner div.texto h2{
+        text-align: left;
+    }
+    section.banner img {
+        width: 100%;
+    }
+    section.posts ul{
+        display: flex;
+        margin: 1vw 0 0 0;
+    }
+    section.posts {
+        padding: 0 3vw 0 3vw;
+    }
+    section.posts ul li {
+        margin: 0 1vw 0 1vw;
+    }
+    section.works {
+        padding: 10vw 10vw 10vw 10vw;
+    }
+    section.works ul {
+        display: flex;
+    }
+    section.works h2 {
+        font-size: 2.0rem;
+        padding: 0 0 3vw 0;
+    }
+}
