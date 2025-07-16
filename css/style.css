@@ -225,3 +225,79 @@ footer nav p a {
         padding: 0 0 3vw 0;
     }
 }
+
+/*================================================================================
+==================================================================================
+                                    Página works
+==================================================================================
+================================================================================*/
+
+header nav ul li {
+    text-align: right;
+    margin: 20px 0 20px 0;
+}
+header nav ul li.workslaranja {
+    color: #ff6464;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*================================================================================
+                                    Dashboard
+================================================================================*/
+
+main section.dashboard h1 {
+    font-size: 2rem;
+    padding: 30px 10px 0px 10px;
+    color: #21243D;
+}
+section.dashboard h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #21243D;
+    margin: 20px 0 20px 0;
+}
+section.dashboard p span {
+    background-color: #ff6464;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 10px 5px 10px;
+    margin: 7px 14px 7px 14px; 
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+section.dashboard p.amet {
+    margin: 10px 0 10px 0;
+    padding: 0 15px 0 15px;
+}
+section.dashboard p.info {
+    color: #21243D;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+/*================================================================================
+                                    Carro
+================================================================================*/
+
+section.carro h1 {
+    font-size: 1.5rem;
+    padding: 15px 15px 15px 15px;
+}
+section.carro ul li p span {
+    background-color: #ff6464;
+    border-radius: 25px;
+    margin: 5px 7px 5px 7px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 2px 5px 2px;
+}
+section.carro ul li p {
+    padding: 15px 15px;
+}
